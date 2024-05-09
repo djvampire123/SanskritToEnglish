@@ -16,3 +16,14 @@ To set up this project on your local machine, follow these steps:
    ```bash
    git clone https://github.com/your-username/SanskritToEnglish.git
    cd SanskritToEnglish
+2. **Install dependencies:**
+    ```bash
+    pip install torch torchvision torchaudio fasttext
+3. **Extract and prepare the dataset:**
+    ```bash
+    tar -xzvf "/content/drive/MyDrive/aclImdb_v1.tar.gz" -C /path/to/destination
+    
+4. **Mount Google Drive (if using Google Colab):**
+    ```python
+    from google.colab import drive
+    drive.mount('/content/drive')
