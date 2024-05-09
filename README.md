@@ -18,7 +18,7 @@ To set up this project on your local machine, follow these steps:
    cd SanskritToEnglish
 2. **Install dependencies:**
     ```bash
-    pip install torch torchvision torchaudio fasttext
+    pip install torch torchvision torchaudio
 3. **Extract and prepare the dataset:**
     ```bash
     tar -xzvf "/content/drive/MyDrive/aclImdb_v1.tar.gz" -C /path/to/destination
