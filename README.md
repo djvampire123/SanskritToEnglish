@@ -18,7 +18,7 @@ To set up this project on your local machine, follow these steps:
    cd SanskritToEnglish
 2. **Install dependencies:**
     ```bash
-    pip install torch torchvision torchaudio
+    pip install datasets tokenizers torch
     
 3. **Mount Google Drive (if using Google Colab):**
     ```python
