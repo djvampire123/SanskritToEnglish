@@ -48,12 +48,12 @@ Our translation system has been benchmarked against existing methods, showing si
 To ensure consistency and replicability, our translation models have been tested on multiple datasets, including:
 
 - **Digital Corpus of Sanskrit:** A comprehensive collection of Sanskrit texts for training and validation.
-- **BOLD5000:** A dataset containing English translations of Sanskrit manuscripts, used for benchmarking our model's performance.
+- **Itihasa Test Set:** A dataset containing English translations of Sanskrit manuscripts, used for benchmarking our model's performance.
 
 ## Project Structure
 - `SanskritToEnglishTransformer.ipynb`: The main Jupyter notebook containing all the preprocessing, model training, and evaluation code.
 - Used Dataset provided by Hugging Face: [rahular/itihasa](https://huggingface.co/datasets/rahular/itihasa)
-- `nmt_weights.h5`: Saved model weights for easy reuse without retraining.
+- `nmt_weights.h5`: Saved model weights for easy reuse without retraining.(For Initial LSTM based model)
 
 ## Setup and Installation
 To set up this project on your local machine, follow these steps:
