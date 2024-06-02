@@ -1,4 +1,4 @@
-# SanskritToEnglish Translation Project
+# SanskritToEnglish Translation Project(Updated To Transformer Based)
 
 Welcome to the SanskritToEnglish translation project! This repository contains code for a machine learning model that translates Sanskrit text into English. It utilizes state-of-the-art Natural Language Processing (NLP) techniques, with models trained on a rich dataset of Sanskrit and English sentence pairs.
 
